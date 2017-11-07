@@ -1,0 +1,121 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*{
+    font-family:'Roboto', Helvetica, sans-serif;
+}
+
+header{
+    background-image:url(./images/hero.jpg);
+    width:100%;
+    height:640px;
+        
+}
+
+.logo {
+    width:157px;
+    height:100px;
+    margin: 18px 34px;
+   
+}
+
+nav{
+    float:right;
+}
+
+.navigationLinks{
+  
+    margin: 35px;
+}
+
+.navigationLinks li {
+    display:inline;
+    margin-right:28px;
+    list-style-type:none;    
+}
+
+.navigationLinks li a {
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight:500;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+.title{
+   
+    text-align:center;
+    margin-top:175px;
+    color:#FFFFFF; 
+    font-weight:100;
+}
+.title h1{
+    font-size:92px;  
+    font-weight:100;
+}
+
+.title p{
+    font-size:24px;
+    font-weight:300;
+    margin-top:-40px;
+}
+
+.intro-text {
+  color:#C3BFBF;
+  font-size: 32px;
+  text-align: center;
+  font-weight:300;
+  padding:150px 350px 70px 350px;
+}
+
+.divider-intro-text {
+    margin-left:365px;
+
+}
+
+
+.goals-text {
+    
+    border:1px solid red;
+    
+}
+
+
+.goals-text h2{
+    color:#777777;
+    font-weight:500;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top:127px;
+    margin-bottom:69px;
+}
+.goals-text h3{
+  color: #777777;
+  text-transform: uppercase;
+  font-weight:700;
+}
+
+.goals-list li{
+    float:left;
+    width:33%;
+    list-style-type:none;
+    padding:0px 60px;
+}
+
+.goals-list li:nth-child(3n+1) {
+    clear:left;
+}
+
+.colearners-section ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
