@@ -67,10 +67,11 @@ nav{
   text-align: center;
   font-weight:300;
   padding:150px 350px 70px 350px;
+  /*border:1px solid red;*/
 }
 
 .divider-intro-text {
-    margin-left:365px;
+    margin-left:355px;
 
 }
 
@@ -78,7 +79,7 @@ nav{
 .goals-text {
     
     border:1px solid red;
-    
+    overflow:hidden;
 }
 
 
